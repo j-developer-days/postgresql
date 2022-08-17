@@ -1,0 +1,32 @@
+t_phone_number_type
+	id
+	phone_number_type
+	
+t_countries
+	id
+	country_name
+	country_code
+	country_phone_number_prefix
+	
+-------------
+	
+t_users
+	id
+	fistname
+	lastname
+	patronymic
+	
+t_users_detail
+	user_id(t_users.id)
+	date_of_birth
+	gender
+	
+t_phone_numbers
+	id
+	phone_number
+	phone_number_type_id(t_phone_number_type.id)
+	phone_number_country_id(t_countries.id)
+	
+t_users_phone_numbers
+	user_id(t_users.id)
+	phone_number_id(t_phone_numbers.id)
