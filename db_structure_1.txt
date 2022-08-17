@@ -1,4 +1,4 @@
-t_phone_number_type
+t_phone_number_types
 	id
 	phone_number_type
 	
