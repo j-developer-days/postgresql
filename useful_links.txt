@@ -1,0 +1,2 @@
+Information Schema - https://www.postgresql.org/docs/current/information-schema.html
+Data Types - https://www.postgresql.org/docs/current/datatype.html
