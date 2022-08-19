@@ -18,4 +18,4 @@ select *
 from phone_book.t_phone_number_types;
 
 select *
-from phone_book.t_countries;2
+from phone_book.t_countries;
